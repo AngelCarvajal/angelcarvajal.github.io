@@ -30,6 +30,8 @@
   var navbarCollapse = function() {
     if ($("#mainNav").offset().top > 100) {
       $("#mainNav").addClass("navbar-shrink");
+      console.log("fdrtg");
+      $("#logowhite").prepend("<img src= 'img/black-logo.png' width='30' height='30' class='d-inline-block align-top'>");
     } else {
       $("#mainNav").removeClass("navbar-shrink");
     }
