@@ -289,3 +289,8 @@ a:focus, a:hover {
 footer {
   padding: 5rem 0;
 }
+
+
+/* Some Styles made by Felix */
+nav.navbar img#logoBlanco { display: none; float: left; margin-right: 10px; }
+nav.navbar img#logoNegro { display: none; float: left; margin-right: 10px; }
