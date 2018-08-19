@@ -158,28 +158,31 @@
 
 .about-section {
   padding-top: 2.5rem;
-  background: linear-gradient(to bottom, #161616 0%, rgba(22, 22, 22, 0.9) 85%, rgba(22, 22, 22, 0.8) 100%);
+  background: linear-gradient(to bottom, #161616 0%, #6461FF 50%, #29A6FF 60%, #161616 100%);
   padding-bottom: 2.5rem;
 }
 
 .about-section p {
   margin-bottom: 2.5rem;
+
 }
 
 .projects-section {
   padding: 2.5rem 0;
-  background: linear-gradient(to bottom, #161616 0%, #0A0A0A 50%, #29A6FF 100%);
+  background: linear-gradient(to bottom, #161616 0%, #0A0A0A 20%, #29A6FF 100%);
 }
 
 .projects-section .featured-text {
   padding: 2rem;
   color: white;
+  font-style: italic;
 }
 
 @media (min-width: 992px) {
   .projects-section .featured-text {
     padding: 0 0 0 2rem;
     border-left: 0.5rem solid #6461FF;
+
   }
 }
 
@@ -191,6 +194,7 @@
 @media (min-width: 992px) {
   .projects-section .project-text {
     padding: 5rem;
+
   }
   .projects-section .project-text hr {
     border-color: #6461FF;
@@ -241,11 +245,11 @@
   width: 3rem;
 }
 
-.contact-section .social {
+.socialbtn-section {
   margin-top: 5rem;
 }
 
-.contact-section .social a {
+.socialbtn-section .bnt a {
   text-align: center;
   height: 3rem;
   width: 3rem;
@@ -255,11 +259,11 @@
   color: rgba(255, 255, 255, 0.3);
 }
 
-.contact-section .social a:hover {
+.socialbtn-section .bnt a:hover {
   color: rgba(255, 255, 255, 0.5);
 }
 
-.contact-section .social a:active {
+.socialbtn-section .btn a:active {
   color: #fff;
 }
 
