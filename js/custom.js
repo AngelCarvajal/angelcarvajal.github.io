@@ -1,4 +1,8 @@
 $(document).ready(function() {
+  //Titulo de las redes sociales
+  $('[data-toggle="tooltip"]').tooltip();
+
+  //funcion para la barra de navegacion y el logo
 	var navbarCollapse = function() {
     	if ($("#mainNav").offset().top > 100) {
     		$('nav.navbar div a img#logoBlanco').css('display', 'none');
