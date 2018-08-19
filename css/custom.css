@@ -157,9 +157,9 @@
 }
 
 .about-section {
-  padding-top: 10rem;
-  background: linear-gradient(to bottom, #161616 0%, rgba(22, 22, 22, 0.9) 75%, rgba(22, 22, 22, 0.8) 100%);
-  padding-bottom: 10rem;
+  padding-top: 2.5rem;
+  background: linear-gradient(to bottom, #161616 0%, rgba(22, 22, 22, 0.9) 85%, rgba(22, 22, 22, 0.8) 100%);
+  padding-bottom: 2.5rem;
 }
 
 .about-section p {
@@ -167,8 +167,8 @@
 }
 
 .projects-section {
-  padding: 10rem 0;
-  background: linear-gradient(to bottom, #161616 0%, #0A0A0A 50%, #29A6FF 100%);
+  padding: 2.5rem 0;
+  background: linear-gradient(to bottom, #161616 0%, #0A0A0A 50%, #6461FF 100%);
 }
 
 .projects-section .featured-text {
@@ -201,7 +201,7 @@
 
 .signup-section {
   padding: 10rem 0;
-  background: linear-gradient(to bottom, #29A6FF 0%, rgba(22, 22, 22, 0.5) 35%, #161616 100%), url("../img/bg-signup.jpg");
+  background: linear-gradient(to bottom, #29A6FF 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("../img/bg-signup.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
