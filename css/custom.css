@@ -204,8 +204,8 @@
 }
 
 .signup-section {
-  padding: 10rem 0;
-  background: linear-gradient(to bottom, #29A6FF 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("../img/bg-signup.jpg");
+  padding-top: 0.5rem 0;
+  background: linear-gradient(to bottom, rgba(41, 166, 255, 10) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("../img/bg-signup.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -225,6 +225,7 @@
 
 .contact-section {
   padding: 5rem 0 0;
+  position: top;
 }
 
 .contact-section .card {
@@ -240,8 +241,7 @@
 }
 
 .contact-section .card hr {
-  border-color: #6461FF;
-  border-width: 0.25rem;
+  border-color: #FF66FF  border-width: 0.25rem;
   width: 3rem;
 }
 
@@ -297,6 +297,45 @@ footer {
   padding: 5rem 0;
 }
 
+nav.navbar img#logoNegro {
+    display: none;
+    float: left;
+    margin-right: 10px;
+}
+
+nav.navbar img#logoBlanco {
+    float: left;
+    margin-right: 10px;
+}
+
+.contact-card{
+  padding: 28px;
+  background: transparent;
+}
+
+.contact-card .card { 
+  box-shadow: 0 4px 8px 0 rgba(100, 97, 255,0.2);
+  transition: 0.5s;
+}
+
+.contact-card .card:hover { 
+  background:linear-gradient(to bottom right, #00FF7B, #FFFF3E);
+  box-shadow: 8px 8px 8px 8px rgba(0, 0, 0,0.2);
+}
+
+.contact-card .card i.fas:hover {
+  color: #ff3300;
+}
+
+.contact-section .card hr:hover {
+  border-color: #ff3300;
+  border-width: 0.25rem;
+  width: 3rem;
+}
+
+.contact-card .card a:hover {
+  color: #FFFFFF;
+}
 
 /* Some Styles made by Felix */
 nav.navbar img#logoBlanco { display: none; float: left; margin-right: 10px; }
